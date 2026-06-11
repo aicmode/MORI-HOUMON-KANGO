@@ -10,6 +10,18 @@
 document.addEventListener('DOMContentLoaded', () => {
 
   // ---------------------------------------------------------
+  // 写真の読み込み失敗時はプレースホルダー（枠のグラデーション）に戻す
+  // assets/images/ に写真を置くだけで差し替えられる
+  // ---------------------------------------------------------
+  document.querySelectorAll('.image-soft').forEach((img) => {
+    const hide = () => img.classList.add('is-hidden');
+    img.addEventListener('error', hide);
+    if (img.complete && img.naturalWidth === 0) {
+      hide();
+    }
+  });
+
+  // ---------------------------------------------------------
   // ハンバーガーメニュー
   // ---------------------------------------------------------
   const menuButton = document.getElementById('menuButton');

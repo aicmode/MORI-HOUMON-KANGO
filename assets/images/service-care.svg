@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fffdf8"/>
+      <stop offset=".62" stop-color="#f3f0e7"/>
+      <stop offset="1" stop-color="#e4ece2"/>
+    </linearGradient>
+    <filter id="sh" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="14" stdDeviation="17" flood-color="#596256" flood-opacity=".1"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <circle cx="950" cy="90" r="270" fill="#fff7df" opacity=".5"/>
+  <rect x="92" y="178" width="1016" height="320" rx="38" fill="#fbf9f2" filter="url(#sh)"/>
+  <rect x="154" y="256" width="144" height="150" rx="24" fill="#f7f3e9" stroke="#d8e3d8" stroke-width="8"/>
+  <rect x="178" y="286" width="96" height="22" rx="10" fill="#dfe9de"/>
+  <rect x="178" y="326" width="96" height="22" rx="10" fill="#e9eef1"/>
+  <rect x="178" y="366" width="96" height="22" rx="10" fill="#dfe9de"/>
+  <circle cx="420" cy="333" r="70" fill="#e8f0e7"/>
+  <circle cx="420" cy="333" r="39" fill="#fafbf7"/>
+  <path d="M390 333h60M420 303v60" stroke="#5f8068" stroke-width="13" stroke-linecap="round" opacity=".65"/>
+  <path d="M596 254c80-31 159 27 147 111-8 62-63 104-124 96-62-8-105-64-99-123" fill="none" stroke="#8da4b0" stroke-width="19" stroke-linecap="round" opacity=".72"/>
+  <circle cx="586" cy="337" r="32" fill="#f8f5ea" stroke="#557662" stroke-width="12" opacity=".83"/>
+  <rect x="781" y="266" width="248" height="144" rx="26" fill="#f0eee5"/>
+  <path d="M824 309h108M824 352h156" stroke="#d2ded1" stroke-width="13" stroke-linecap="round"/>
+  <path d="M989 307c36 24 34 64-4 88" fill="none" stroke="#8da4b0" stroke-width="16" stroke-linecap="round" opacity=".52"/>
+  <path d="M133 523c171-35 310-28 417 22 136 64 284 58 444-17 73-34 142-41 206-22v169H133z" fill="#dfe8dd" opacity=".46"/>
+  <path d="M109 156c70-29 134-28 191 2" stroke="#c8d9c8" stroke-width="8" stroke-linecap="round" opacity=".5"/>
+  <ellipse cx="247" cy="137" rx="47" ry="16" fill="#789a7c" opacity=".23" transform="rotate(-21 247 137)"/>
+</svg>
