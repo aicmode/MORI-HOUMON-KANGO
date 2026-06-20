@@ -56,6 +56,12 @@
           <img src="assets/images/contact-consult.jpg" alt="相談しやすい雰囲気の電話とメモのある窓辺" class="image-soft" loading="lazy">
         </div>
 
+        <div class="form-intro fade-in">
+          <p>
+            まだ利用するか決まっていない段階でも、お気軽にご相談ください。ご本人の状態、ご家族の不安、現在利用しているサービスなどを伺いながら、必要な支援を一緒に考えます。
+          </p>
+        </div>
+
         <div class="form-wrap fade-in">
           <p class="form-demo-note">※このフォームはデモサイト用です。実際の送信機能はありません。</p>
 
@@ -68,6 +74,21 @@
             <div class="form-field">
               <label for="tel" class="form-label">電話番号<span class="form-required">必須</span></label>
               <input type="tel" id="tel" name="tel" class="form-input" placeholder="例）099-000-0000" autocomplete="tel" required>
+            </div>
+
+            <div class="form-field">
+              <label for="type" class="form-label">お問い合わせ種別<span class="form-required">必須</span></label>
+              <select id="type" name="type" class="form-select" required>
+                <option value="" selected disabled>選択してください</option>
+                <option value="訪問看護の利用相談">訪問看護の利用相談</option>
+                <option value="退院後の生活について">退院後の生活について</option>
+                <option value="ご家族の介護相談">ご家族の介護相談</option>
+                <option value="医療処置について">医療処置について</option>
+                <option value="費用や保険について">費用や保険について</option>
+                <option value="対応エリアについて">対応エリアについて</option>
+                <option value="ケアマネジャー・医療機関からの相談">ケアマネジャー・医療機関からの相談</option>
+                <option value="その他">その他</option>
+              </select>
             </div>
 
             <div class="form-field">
